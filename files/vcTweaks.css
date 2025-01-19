@@ -1,6 +1,6 @@
 /* no pip for myself */
-div[class^="pictureInPictureWindow"] div[class^="wrapper_"]
-:has( > div[data-selenium-video-tile="1043599230247374869"]) {display: none;}
+div[class^="pictureInPictureWindow"] div[class^="wrapper_"]:has(
+  > div[data-selenium-video-tile="1043599230247374869"]) {display: none;}
 
 /* unmirror personal camera */
 .media-engine-video { transform: none }
