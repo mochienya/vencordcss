@@ -29,3 +29,9 @@ nav:has(>div[aria-label="Expression Picker Categories"]) {
 #emoji-picker-tab-panel, #sticker-picker-tab-panel, #gif-picker-tab-panel {
   margin-top: -2rem;
 }
+
+/* hide green icons from favorites tab */
+div[class^="scroller_"] > div[class^=listItem] {
+  foreignObject { mask: none; border-radius: 100%; }
+  div[class^=upperBadge] { display: none; }
+}
