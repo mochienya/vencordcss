@@ -1,0 +1,23 @@
+/* SQUIRCLE!!! */
+img[class^="avatar_"] { border-radius: 30% }
+
+/* fullwidth message link embeds */
+article[class^=embedFlex] { &, & > div {
+  width: fit-content;
+  max-width: unset;
+}}
+
+/* less markdown margins */
+div[class^=message] div[id^=message-content] {
+  h1, h2, h3, li { margin: 0px }
+  ol, ul { margin-top: 0px }
+}
+
+/* hide default discord stickers */
+span[class^="clickableSticker"] > div[aria-label] {
+  > div[class^="assetWrapper"] { display: none }
+  &::after {
+    content: "please act distant with this sticker-slicker :3";
+    color: gray; font-weight: 500;
+  }
+}

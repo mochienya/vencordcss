@@ -1,0 +1,31 @@
+/* list of things i don't like that get display: none'd */
+[href="/store"],
+[href='/shop'],  /* useless things at top of dm list */
+button[aria-label="Send a gift"],  /* no gift button in chat */
+button[aria-label="Start An Activity"],  /* no activity button in bottom left vc card */
+[for="burst-reaction-toggle-button"],  /* i think this is for no super reaction toggles? i didn't write this line */
+ul[aria-label="Direct Messages"]>div[class^="container_"],  /* no "play again" thing in dm list */
+div[class^="flex_"][class*="horizontal_"] > div[class^="wrapper_"] > div[class^=buttonContainer_], /* no app launcher button in calls */
+div[class^=channelAppLauncher_],  /* no app launcher button in chatbar */
+div[aria-label="Help"],  /* help button in top right of dms */
+div[class^=wumpusWrapper],  /* I'm new to discord! */
+div[class^="socialLinks"],  /* links to discord social media in settings */
+div[class^="welcomeCTA"]  /* no prompt for discord sticker when someone joins */
+{
+  display: none !important;
+}
+
+/* billions must be yellow */
+div[class^="diversitySelector_"] {display: none}
+div[class^="emojiPicker_"] > div[class^="header_"] > div[class^="searchBar_"] {
+  margin: 0;
+}
+
+/* remove things at top of emoji card since i use the chatbar buttons */
+nav:has(>div[aria-label="Expression Picker Categories"]) {
+  visibility: hidden;
+  max-height: 0px !important;
+}
+#emoji-picker-tab-panel, #sticker-picker-tab-panel, #gif-picker-tab-panel {
+  margin-top: -2rem;
+}
