@@ -48,3 +48,6 @@ a[href="/channels/@me/1289968073025257505"] div[class^="overflow_"]
 div[data-selenium-video-tile="1043599230247374869"] div[class^="background_"] {
   background-color: #0c0610 !important;
 }
+/* no pip for myself vc */
+div[class^="pictureInPictureWindow"] div[class^="wrapper_"]:has(
+  > div[data-selenium-video-tile="1043599230247374869"]) {display: none;}

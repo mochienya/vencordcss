@@ -7,8 +7,6 @@
 
 
 [href="/store"],
-[href='/shop'],  /* useless things at top of dm list */
-button[aria-label="Send a gift"],  /* no gift button in chat */
 button[aria-label="Start An Activity"],  /* no activity button in bottom left vc card */
 [for="burst-reaction-toggle-button"],  /* i think this is for no super reaction toggles? i didn't write this line */
 ul[aria-label="Direct Messages"]>div[class^="container_"],  /* no "play again" thing in dm list */
