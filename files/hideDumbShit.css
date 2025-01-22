@@ -9,7 +9,6 @@
 [href="/store"],
 button[aria-label="Start An Activity"],  /* no activity button in bottom left vc card */
 [for="burst-reaction-toggle-button"],  /* i think this is for no super reaction toggles? i didn't write this line */
-ul[aria-label="Direct Messages"]>div[class^="container_"],  /* no "play again" thing in dm list */
 div[class^="flex_"][class*="horizontal_"] > div[class^="wrapper_"] > div[class^=buttonContainer_], /* no app launcher button in calls */
 div[class^=channelAppLauncher_],  /* no app launcher button in chatbar */
 div[aria-label="Help"],  /* help button in top right of dms */
