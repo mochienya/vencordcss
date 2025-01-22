@@ -1,4 +1,10 @@
-/* this file is for things that add personalization specific to me or cassie */
+/**
+* @name moCassie
+* @author mochienya
+* @version 1.0
+* @description things that add personalization specific to me or cassie
+*/
+
 
 /*#region*/ /* mochie home & load icon */
 :is(div[aria-label="Direct Messages"], video[data-testid="app-spinner"] + div)::before {

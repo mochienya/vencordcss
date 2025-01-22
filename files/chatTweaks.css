@@ -1,3 +1,11 @@
+/**
+* @name chatTweaks
+* @author mochienya
+* @version 1.0
+* @description things affecting things in the chat itself
+*/
+
+
 /* SQUIRCLE!!! */
 img[class^="avatar_"] { border-radius: 30% }
 

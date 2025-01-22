@@ -1,4 +1,11 @@
-/* list of things i don't like that get display: none'd */
+/**
+* @name hideDumbShit
+* @author mochienya
+* @version 1.0
+* @description removes a bunch of things i don't like
+*/
+
+
 [href="/store"],
 [href='/shop'],  /* useless things at top of dm list */
 button[aria-label="Send a gift"],  /* no gift button in chat */
