@@ -33,17 +33,6 @@ video[data-testid="app-spinner"] {
 }
 /*#endregion*/
 
-/* mochie colored mochie */
-li[data-author-id="1043599230247374869"] h3 span[class^=username] {
-  color: #05afff;
-}
-/* cassie colored cassie and dm */
-li[data-author-id="280411966126948353"] h3 span[class^=username],
-a[href="/channels/@me/1289968073025257505"] div[class^="nameAndDecorators"] div[class^="overflow_"]
-{
-  color: #e700ff;
-}
-
 /* better background color for myself vc */
 div[data-selenium-video-tile="1043599230247374869"] div[class^="background_"] {
   background-color: #0c0610 !important;
