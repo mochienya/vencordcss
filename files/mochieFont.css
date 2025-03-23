@@ -13,6 +13,6 @@
   font-style: normal;
   src: url("https://files.catbox.moe/6wrrgg.woff2") format("woff2"), url('https://files.catbox.moe/s5waog.ttf') format('truetype');
 }
-:root {
-  --font-code: "Mochie"
+.vc-shiki-table {
+  font-family: "Mochie";
 }
