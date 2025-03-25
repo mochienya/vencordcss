@@ -9,10 +9,22 @@
   font-family: "Mochie";
   font-display: swap;
   font-weight: 400;
-  font-stretch: normal;
+  font-optical-sizing: auto;
   font-style: normal;
   src: url("https://files.catbox.moe/6wrrgg.woff2") format("woff2"), url('https://files.catbox.moe/s5waog.ttf') format('truetype');
 }
-.vc-shiki-table {
-  font-family: "Mochie";
+.vc-shiki-table
+{ font-family: "Mochie"; }
+
+@font-face {
+  font-family: "Nunito";
+  font-display: swap;
+  font-style: normal;
+  font-optical-sizing: auto;
+  src: url("https://files.catbox.moe/505rkf.ttf") format('truetype');
+}
+* {
+  --font-primary: 'Nunito', sans-serif !important;
+  --font-display: 'Nunito', sans-serif !important;
+  --font-headline: 'Nunito', sans-serif !important;
 }
