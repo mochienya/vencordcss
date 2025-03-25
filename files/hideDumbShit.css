@@ -39,3 +39,10 @@ div[class^="scroller_"] > div[class^=listItem] {
   foreignObject { mask: none; border-radius: 100%; }
   div[class^=upperBadge] { display: none; }
 }
+
+/* no soundboard button in new vc bar (this whole thing is horrific there's barely any difference between the divs) */
+div[class^="buttonSection__"]:has(div[class^="buttonContainer__"]) {
+  gap: 0;
+  div[class^="attachedCaretButtonContainer_"]:nth-child(3)
+    { display: none; }
+}
