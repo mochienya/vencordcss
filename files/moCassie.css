@@ -9,7 +9,7 @@
 /*#region*/ /* mochie home & load icon */
 :is(div[aria-label="Direct Messages"], video[data-testid="app-spinner"] + div)::before {
   content: '';
-  background-image: url('https://cdn.discordapp.com/avatars/1043599230247374869/131eba7a6f115fe785042eb6de44e3b3.webp?size=1024') !important;
+  background-image: url('https://files.catbox.moe/hgwfsc.png') !important;
   background: center/contain no-repeat;
 }
 div[aria-label="Direct Messages"] {
