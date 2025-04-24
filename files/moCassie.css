@@ -7,6 +7,7 @@
 
 
 /*#region*/ /* mochie home & load icon */
+/* it brokey when update :(
 :is(div[aria-label="Direct Messages"], video[data-testid="app-spinner"] + div)::before {
   content: '';
   background-image: url('https://files.catbox.moe/hgwfsc.png') !important;
@@ -31,6 +32,7 @@ video[data-testid="app-spinner"] {
     display: block;
   }
 }
+*/
 /*#endregion*/
 
 /* better background color for myself vc */
