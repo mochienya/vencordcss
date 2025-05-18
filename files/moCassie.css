@@ -35,9 +35,13 @@ video[data-testid="app-spinner"] {
 */
 /*#endregion*/
 
-/* better background color for myself vc */
-div[data-selenium-video-tile="1043599230247374869"] div[class^="background_"] 
-{ background-color: #0c0610 !important }
+/* better background color for myself vc and full res pfp (discord doesn't store 1024x1024 anymore) */
+div[data-selenium-video-tile="1043599230247374869"]  {
+  --full-res-avatar: url(https://files.catbox.moe/hgwfsc.png) !important;
+
+  div[class^="background_"] 
+  { background-color: #0c0610 !important; }
+}
 /* same thing for cassie */
 div[data-selenium-video-tile="280411966126948353"] div[class^="background_"]
 { background-color: #8f13ad !important }
