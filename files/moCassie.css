@@ -43,8 +43,12 @@ div[data-selenium-video-tile="1043599230247374869"]  {
   { background-color: #0c0610 !important; }
 }
 /* same thing for cassie */
-div[data-selenium-video-tile="280411966126948353"] div[class^="background_"]
-{ background-color: #8f13ad !important }
+div[data-selenium-video-tile="280411966126948353"] {
+  --full-res-avatar: url(https://media.discordapp.net/attachments/1221114753108283423/1244841454011023441/Untitled_Artwork.png?ex=68dbeab2&is=68da9932&hm=17d9ae70f4db4bd8d46b2bfddc785580c02920c838d80d30291427b2a1529c0a&=) !important;
+
+  div[class^="background_"]
+  { background-color: #8f13ad !important }
+}
 
 /* no pip for myself vc */
 div[class^="pictureInPictureWindow"] div[class^="wrapper_"]:has(
